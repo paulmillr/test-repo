@@ -6,7 +6,6 @@ jobs:
   test-js:
     name: "JS v0.2.2" # v0.2.2 == commit below
     uses: paulmillr/jsbt/.github/workflows/release.yml@986dbfea9667eeb0e81bf606cbe9ed169fea89b2
-    with:
-      secrets:
-        personal_access_token: ${{ secrets.token }}
-        NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+    secrets:
+      personal_access_token: ${{ secrets.token }}
+      NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}

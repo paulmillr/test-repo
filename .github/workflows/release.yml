@@ -5,7 +5,7 @@ on:
 jobs:
   test-js:
     name: "JS v0.2.2" # v0.2.2 == commit below
-    uses: paulmillr/jsbt/.github/workflows/release.yml@00cbacd7905ec88896dadc32de8b6710f418c461
+    uses: paulmillr/jsbt/.github/workflows/release.yml@4980feb086b99c651ed7ce8d8de637bfb338b83f
     with:
       jsr-slow-types: false
     secrets:

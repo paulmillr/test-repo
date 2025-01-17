@@ -5,4 +5,4 @@ on:
 jobs:
   test-js:
     name: "JS v0.2.2" # Should match commit below
-    uses: paulmillr/jsbt/.github/workflows/test-js.yml@42ef4eff4a7eae6c0f1d8a3ab20d66c9a8b4985c
+    uses: paulmillr/jsbt/.github/workflows/test-js.yml@00cbacd7905ec88896dadc32de8b6710f418c461

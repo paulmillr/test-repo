@@ -1,0 +1,22 @@
+{
+  "name": "@paulmillr/test-repo",
+  "version": "0.0.1",
+  "description": "Repo for testing github ci / npm / jsr / etc",
+  "main": "index.js",
+  "files": ["index.ts", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulmillr/test-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/paulmillr/test-repo/issues"
+  },
+  "homepage": "https://github.com/paulmillr/test-repo#readme"
+}

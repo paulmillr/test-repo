@@ -7,7 +7,7 @@ jobs:
     name: "JS v0.2.2" # v0.2.2 == commit below
     uses: paulmillr/jsbt/.github/workflows/release.yml@00cbacd7905ec88896dadc32de8b6710f418c461
     with:
-      jsr-slow-types: true
+      jsr-slow-types: false
     secrets:
       NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
     permissions:

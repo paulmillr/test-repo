@@ -1,6 +1,6 @@
 {
   "name": "@paulmillr/test-repo",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Repo for testing github ci / npm / jsr / etc",
   "main": "index.js",
   "files": [
@@ -13,8 +13,8 @@
     "build": "echo build",
     "build:release": "npx jsbt esbuild test/build",
     "test": "echo test",
-    "test:bun": "echo test",
-    "test:deno": "echo test"
+    "test:1": "echo test",
+    "test:2": "echo test"
   },
   "repository": {
     "type": "git",

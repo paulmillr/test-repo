@@ -12,9 +12,9 @@
   "scripts": {
     "build": "echo build",
     "build:release": "npx jsbt esbuild test/build",
-    "test": "echo test",
-    "test:1": "echo test",
-    "test:2": "echo test"
+    "test": "echo node",
+    "test:bun": "echo bun",
+    "test:deno": "echo deno"
   },
   "repository": {
     "type": "git",

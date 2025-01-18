@@ -2,13 +2,6 @@
   "name": "build",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "single": "npx esbuild --bundle input.js --outfile=`npx jsbt outfile` --global-name=`npx jsbt global`",
-    "min": "npx esbuild --minify --bundle input.js --outfile=`npx jsbt outfile`.min.js --global-name=`npx jsbt global`",
-    "mingz": "npm run min && gzip -c8 `npm run --silent fsize_name` > `npm run --silent fsize_name`.gz",
-    "fsize_name": "echo `npx jsbt outfile`.min.js",
-    "size": "echo \"`npm run --silent mingz | wc -c`B gzipped\""
-  },
   "devDependencies": {
     "esbuild": "0.20.1"
   },

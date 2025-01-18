@@ -8,6 +8,7 @@ jobs:
     uses: paulmillr/jsbt/.github/workflows/release.yml@4980feb086b99c651ed7ce8d8de637bfb338b83f
     with:
       jsr-slow-types: false
+      build-path: test/build
     secrets:
       NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
     permissions:

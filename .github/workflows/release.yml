@@ -13,3 +13,4 @@ jobs:
     permissions:
       contents: write
       id-token: write
+      attestations: write

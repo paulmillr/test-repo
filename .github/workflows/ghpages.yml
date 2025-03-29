@@ -7,7 +7,6 @@ jobs:
         with:
           repository: 'paulmillr/test-repo-pages'
       - run: |
-          cd test-repo-pages
           date > generated.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

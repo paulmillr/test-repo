@@ -6,6 +6,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: 'paulmillr/test-repo-pages'
+          token: ${{ secrets.GH_PAGES_PAT }}
       - run: |
           date > generated.txt
           git config user.name "github-actions[bot]"

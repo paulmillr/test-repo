@@ -5,7 +5,7 @@ on:
 jobs:
   release-js:
     name: "jsbt v0.4.0" # Should match commit below
-    uses: paulmillr/jsbt/.github/workflows/release.yml@9995217c4bae043012ffe21273d811afad0f5ead
+    uses: paulmillr/jsbt/.github/workflows/release.yml@cde77cab35fb022985c150df5cdbf8baf240e499
     with:
       build-path: test/build
     secrets:

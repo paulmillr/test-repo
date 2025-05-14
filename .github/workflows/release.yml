@@ -6,8 +6,8 @@ jobs:
   release-js:
     name: "jsbt v0.3.5" # Should match commit below
     uses: paulmillr/jsbt/.github/workflows/release.yml@5bc2201388cc8acaed250602484b77c414470975
-    with:
-      build-path: test/build
+    # with:
+    #   build-path: test/build
     secrets:
       NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
     permissions:

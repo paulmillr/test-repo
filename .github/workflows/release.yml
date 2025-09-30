@@ -116,4 +116,4 @@ jobs:
       - name: Publish
         run: |
           echo "Publishing ${{ needs.prepare.outputs.filename }}"
-          npm publish "${{ needs.prepare.outputs.filename }}" --tag ${{ env.NPM_TAG }}
+          npm publish "${{ needs.prepare.outputs.filename }}" --provenance --tag ${{ env.NPM_TAG }}

@@ -20,6 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/paulmillr/test-repo.git"
   },
+  "packageManager": "pnpm@10.17.1",
   "keywords": [],
   "author": "",
   "license": "ISC",

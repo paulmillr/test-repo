@@ -1,7 +1,7 @@
 {
   "name": "@paulmillr/test-repo",
   "version": "0.4.9",
-  "description": "Repo for testing github ci / npm / jsr.",
+  "description": "Repo for testing github ci / npm / jsr",
   "main": "index.js",
   "files": [
     "index.js",

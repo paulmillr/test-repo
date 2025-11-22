@@ -1,6 +1,6 @@
 {
   "name": "@paulmillr/test-repo",
-  "version": "0.4.8",
+  "version": "0.4.9",
   "license": "MIT",
   "exports": "./index.ts",
   "publish": {

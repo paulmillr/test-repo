@@ -7,4 +7,5 @@ jobs:
     name: 'jsbt v0.4.5' # Should match commit below
     uses: paulmillr/jsbt/.github/workflows/release.yml@6c408662e363f178f47ea26fd671cb16891b64ad
     permissions:
+      contents: read
       id-token: write

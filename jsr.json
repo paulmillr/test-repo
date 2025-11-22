@@ -1,8 +1,9 @@
 {
   "name": "@paulmillr/test-repo",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "license": "MIT",
   "exports": "./index.ts",
+  "allowSlowTypes": true,
   "publish": {
     "include": [
       "index.ts",
